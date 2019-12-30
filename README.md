@@ -101,7 +101,7 @@ USE THE USB DATA CABLE to connect your phone with the computer.
 
 
 ## Optional Extra Stuff
-* Magisk:               https://forum.xda-developers.com/apps/magisk official-magisk-v7-universal-systemless-t3473445
+* Magisk:               https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445
 * Nanodroid:            https://forum.xda-developers.com/apps/magisk/module-nanomod-5-0-20170405-microg-t3584928
 * Butterfly Kernel:     https://forum.xda-developers.com/mi-a2-lite/development/kernel-butterfly-daisy-t3919230
 * Nitrogen Kernel:      https://forum.xda-developers.com/mi-a2-lite/development/r1-nitrogen-kernel-mi-a2-lite-t4011019
