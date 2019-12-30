@@ -1,10 +1,3 @@
-A noob guide to install custom ROM on Mi A2 Lite. All credit goes to @XDA, @tkchn 
-and the respective developer of the custom ROM who contribute so much to 
-the community. I simply created this guide to documenting all of 
-the process and steps taken by me to get the job done based 
-on various sources around Internet, especially from @XDA
-and @tkchn.
-
 # Noob guide to install custom ROM on Mi A2 Lite.
 ### This guide can be applied to the other smartphone that have the same A/B partition layout as Mi A2 Lite with few adjustment.
 #### https://www.xda-developers.com/how-a-b-partitions-and-seamless-updates-affect-custom-development-on-xda/
@@ -107,7 +100,16 @@ USE THE USB DATA CABLE to connect your phone with the computer.
     (Magisk, Gapps, modules, etc.) and flash it the usual way. Reboot your phone.
 
 
-##     Q & A 
+## Optional Extra Stuff
+* Magisk:               https://forum.xda-developers.com/apps/magisk official-magisk-v7-universal-systemless-t3473445
+* Nanodroid:            https://forum.xda-developers.com/apps/magisk/module-nanomod-5-0-20170405-microg-t3584928
+* Butterfly Kernel:     https://forum.xda-developers.com/mi-a2-lite/development/kernel-butterfly-daisy-t3919230
+* Nitrogen Kernel:      https://forum.xda-developers.com/mi-a2-lite/development/r1-nitrogen-kernel-mi-a2-lite-t4011019
+* DragonHeart Kernel:   https://forum.xda-developers.com/mi-a2-lite/development/r1-nitrogen-kernel-mi-a2-lite-t4011019
+* GCAM:                 https://forum.xda-developers.com/mi-a2-lite/themes/gcam-7-0-incl-frontcam-a2-lite-t3973507
+
+
+##     F.A.Q
 ###    1. My phone bootloop. What should I do?
        Hard reset. At least that worked for me.
         
@@ -117,7 +119,7 @@ USE THE USB DATA CABLE to connect your phone with the computer.
 ###    3. How to enter bootloader?
        Turn off the phone. Press Power + Volume Down simulatenously.
        
-###    4. I use Ressurection Remix but every time I reboot back to recovery it go straight to RR recovery, not TWRP recovery! (I LOST MY TWRP RECOVERY)
+###    4. I use XY ROM but every time I reboot back to recovery it go straight to XY recovery, not TWRP recovery! (I LOST MY TWRP RECOVERY)
        Reboot the phone back to fastboot mode using this command:
        > adb reboot bootloader
        
@@ -128,4 +130,10 @@ USE THE USB DATA CABLE to connect your phone with the computer.
        p/s: Most important is DON'T change the slot after flashed because we already in the SAME Slot as the custom ROM.
        
 ###    5. I cannot install the Open GApps. It said 'Incompatible Devices Detected' and 'Updater process ended with ERROR: 64'
-       Just restart the phone to system, let the system booting and then reboot back to twrp again, then install OG.
+       Just restart the phone to system, let the system booting and then reboot back to TWRP again, then install OG.
+
+###    6. I use eWallet app before this, but now I cannot use it because the app detected jailbroken / rooted device (even though I just unlocked the bootloader and install custom ROM, NOT root.) HOW??
+        There are 2 ways to circumvent this issue:
+        a. Just straight root the device by installing Magisk using recovery mode. Magisk can hide the system integrity checks by supply the target app with false data.
+
+        b. Installing custom kernel that support "Hide unlocked bootloader state." using recovery mode. But first, you need to uninstall the app and install it back after the reboot done.
