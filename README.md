@@ -105,7 +105,7 @@ USE THE USB DATA CABLE to connect your phone with the computer.
 * Nanodroid:            https://forum.xda-developers.com/apps/magisk/module-nanomod-5-0-20170405-microg-t3584928
 * Butterfly Kernel:     https://forum.xda-developers.com/mi-a2-lite/development/kernel-butterfly-daisy-t3919230
 * Nitrogen Kernel:      https://forum.xda-developers.com/mi-a2-lite/development/r1-nitrogen-kernel-mi-a2-lite-t4011019
-* DragonHeart Kernel:   https://forum.xda-developers.com/mi-a2-lite/development/r1-nitrogen-kernel-mi-a2-lite-t4011019
+* DragonHeart Kernel:   https://forum.xda-developers.com/mi-a2-lite/development/kernel-dragonheart-msm-caf-3-18-140-t3939288
 * GCAM:                 https://forum.xda-developers.com/mi-a2-lite/themes/gcam-7-0-incl-frontcam-a2-lite-t3973507
 
 
